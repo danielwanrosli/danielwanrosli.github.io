@@ -448,6 +448,7 @@ body {
     .contact-link {
         padding: 6px 12px; 
         font-size: 0.9rem;
+        margin: 6px;
     }
 }
 
