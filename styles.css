@@ -12,7 +12,7 @@
     --bg-color: #f7f7f7; /* Soft background color */
     --accent-color: #ff6b6b; /* Coral color for accents */
     --text-color: #333; /* Darker color for text */
-    --bg-image: url('tryingthis6.png'); /* Path to a less intense background image */
+    --bg-image: url('bgimg.png'); /* Path to a less intense background image */
 }
 
 body, html {
