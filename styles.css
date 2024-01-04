@@ -80,8 +80,8 @@ body {
 }
 
 .circle {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin: 0 auto; 
     overflow: hidden; /* Ensures the image stays within the circle bounds */
