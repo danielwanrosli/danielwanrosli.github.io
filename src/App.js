@@ -70,7 +70,8 @@ export default function App() {
               <span className="chip">Express</span>
               <span className="chip">React Native</span>
               <span className="chip">WCAG</span>
-              <span className="chip">Design thinking</span>
+              <span className="chip">SQL</span>
+              <span className="chip">AWS</span>
               <span className="chip">Figma</span>
               <span className="chip">Prototyping</span>
               <span className="chip">Python</span>
@@ -80,8 +81,6 @@ export default function App() {
               <span className="chip">Supabase</span>
               <span className="chip">Flask</span>
               <span className="chip">GCP</span>
-              <span className="chip">SQL</span>
-              <span className="chip">AWS</span>
             </div>
           </article>
 
