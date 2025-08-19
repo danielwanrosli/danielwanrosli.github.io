@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Github, Linkedin, Instagram } from "lucide-react";
 import avatar from "./avatartion.png";
+import avatarclosed from "./avatartionclosed.png";
 import sawyer from "./sawyer.png";
 import "./App.css"; 
 
@@ -36,9 +37,22 @@ export default function App() {
     <div className="app">
       <main className="container">
         <header className="hero">
-          <div className="avatar">
-            <img src={avatar} alt="me avatar" />
+          <a
+            href="https://www.avatartion.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="avatar-link"
+          >
+            <div className="avatar">
+              <img src={avatar} alt="me avatar" className="avatar-img" />
+              <img src={avatarclosed} alt="me avatar closed eyes" className="avatar-img avatar-img-closed" />
+            </div>
+          </a>
+
+          <div className="speech-bubble comic">
+            Make your own avatar!
           </div>
+
           <div className="hero-text">
             <h1 className="name">{name}</h1>
             <p className="subhead">{subtitle}</p>
@@ -81,7 +95,6 @@ export default function App() {
               <span className="chip">C</span>
               <span className="chip">D3</span>
               <span className="chip">Supabase</span>
-            
             </div>
             <div style={{paddingBottom: "12px"}}></div>
           </article>
@@ -102,7 +115,6 @@ export default function App() {
               <li><a href="/nurture.pdf" target="_blank" rel="noreferrer noopener">Nurture</a></li>
               <li><a href="https://evanbaldonado.github.io/cs-377q-prototypes/p7/" target="_blank" rel="noreferrer noopener">LearningStyle</a></li>
               <li><a href="https://www.youtube.com/watch?v=CVUS3XCwa74" target="_blank" rel="noreferrer noopener">voluntogether</a></li>
-
             </ul>
           </article>
 
@@ -155,7 +167,6 @@ export default function App() {
               <li><a className="social-link" href="https://instagram.com/danielwanrosli" target="_blank" rel="noreferrer noopener"><span className="icon-bubble"><Instagram/></span><span>Instagram</span><span className="handle">danielwanrosli</span></a></li>
             </ul>
             <div style={{paddingBottom: "14px"}}></div>
-
           </article>
 
           {/* Kitten */}
