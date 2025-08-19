@@ -69,19 +69,21 @@ export default function App() {
               <span className="chip">Node</span>
               <span className="chip">Express</span>
               <span className="chip">React Native</span>
-              <span className="chip">WCAG</span>
-              <span className="chip">SQL</span>
-              <span className="chip">AWS</span>
-              <span className="chip">Figma</span>
+              <span className="chip">Design thinking</span>
               <span className="chip">Prototyping</span>
+              <span className="chip">Figma</span>
+              <span className="chip">SQL</span>
+              <span className="chip">Firebase</span>
+              <span className="chip">Flask</span>
+              <span className="chip">GCP</span>
               <span className="chip">Python</span>
               <span className="chip">C++</span>
               <span className="chip">C</span>
               <span className="chip">D3</span>
               <span className="chip">Supabase</span>
-              <span className="chip">Flask</span>
-              <span className="chip">GCP</span>
+            
             </div>
+            <div style={{paddingBottom: "12px"}}></div>
           </article>
 
           {/* MV time */}
@@ -89,19 +91,19 @@ export default function App() {
             <div className="title"><span>Mountain View, CA</span></div>
             <div className="row"><span>{mvIsDay ? "☀️ " : "🌙 "}</span><strong style={{fontSize:16}}>{mvTime}</strong></div>
             <div className="muted" style={{marginTop:4}}>{mvDate} · Pacific Time</div>
-            <div style={{paddingBottom: "12px"}}></div>
           </article>
 
           {/* Projects */}
           <article className="tile card tone-amber">
-            <div className="title"><span>Projects</span></div>
+            <div className="title"><span>Featured HCI work</span></div>
             <ul className="bullets">
-              <li><a href="https://www.youtube.com/watch?v=CVUS3XCwa74" target="_blank" rel="noreferrer noopener">voluntogether</a></li>
-              <li><a href="#">Exploring Motivations for Adding Alternative Text</a></li>
+              <li><a href="/alttext.pdf" target="_blank" rel="noreferrer noopener">Exploring Motivations for Adding Alternative Text</a></li>
               <li><a href="/neighborhoodwatch.pdf" target="_blank" rel="noreferrer noopener">Neighborhood Watch</a></li>
-              <li><a href="#">LearningStyle</a></li>
+              <li><a href="/nurture.pdf" target="_blank" rel="noreferrer noopener">Nurture</a></li>
+              <li><a href="https://evanbaldonado.github.io/cs-377q-prototypes/p7/" target="_blank" rel="noreferrer noopener">LearningStyle</a></li>
+              <li><a href="https://www.youtube.com/watch?v=CVUS3XCwa74" target="_blank" rel="noreferrer noopener">voluntogether</a></li>
+
             </ul>
-            <div style={{paddingBottom: "20px"}}></div>
           </article>
 
           {/* Research */}
@@ -109,9 +111,8 @@ export default function App() {
             <div className="title"><span>Published work</span></div>
             <ul className="bullets">
               <li><a href="https://dl.acm.org/doi/10.1145/3613904.3642517" target="_blank" rel="noreferrer noopener">ReactGenie — A framework for complex multimodal interactions with LLMs (CHI 2024)</a></li>
-              <li><a href="https://hci.stanford.edu/research/smartprimer/pdfs/Cheng_ACORN_draft_2025.pdf" target="_blank" rel="noreferrer noopener">ACORN — Adaptive educational stories (UIST 2025)</a></li>
+              <li><a href="https://hci.stanford.edu/research/smartprimer/pdfs/Cheng_ACORN_draft_2025.pdf" target="_blank" rel="noreferrer noopener">Oak Story: Improving Learner Outcomes with LLM-Mediated Interactive Narratives (UIST 2025)</a></li>
             </ul>
-            <div style={{paddingBottom: "20px"}}></div>
           </article>
 
           {/* Resume */}
@@ -142,6 +143,7 @@ export default function App() {
               <li>Trying to improve at art, skating, and picking up general life skills</li>
               <li>Adopting the life of a cat father :)</li>
             </ul>
+            <div style={{paddingBottom: "14px"}}></div>
           </article>
 
           {/* Socials */}
@@ -152,6 +154,8 @@ export default function App() {
               <li><a className="social-link" href="https://linkedin.com/in/danielwanrosli" target="_blank" rel="noreferrer noopener"><span className="icon-bubble"><Linkedin/></span><span>LinkedIn</span><span className="handle">Daniel Wan Rosli</span></a></li>
               <li><a className="social-link" href="https://instagram.com/danielwanrosli" target="_blank" rel="noreferrer noopener"><span className="icon-bubble"><Instagram/></span><span>Instagram</span><span className="handle">danielwanrosli</span></a></li>
             </ul>
+            <div style={{paddingBottom: "14px"}}></div>
+
           </article>
 
           {/* Kitten */}
